@@ -15,7 +15,7 @@ public class Slength {
 		 else {
 			 System.out.println("NO");
 		 }
-//System.out.println(A.substring);*/
+//System.out.println(A.substring);
 
 	}
 

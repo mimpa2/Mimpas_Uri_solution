@@ -9,9 +9,9 @@ public class TheG {
 		int ab = (a + b + Math.abs(a-b))/2;
 		int abc = (ab + c + Math.abs(ab - c))/2;
 		
-		System.out.print(abc+ " eh o maior  ");
+		System.out.print(abc + " eh o maior ");
 		
-		
+		 
 		
 	}
 
