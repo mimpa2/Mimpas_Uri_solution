@@ -1,17 +1,16 @@
 import java.util.Scanner;
 public class Selection_Test {
+	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
-	int a = sc.nextInt();
-	int b = sc.nextInt();
-	int c = sc.nextInt();
-	int d = sc.nextInt();
-	
-	//int sum_ab = a + b ;
-	//int sum_cd =  c + d;
+	int A = sc.nextInt();
+	int B = sc.nextInt();
+	int C = sc.nextInt();
+	int D = sc.nextInt();
 	
 	
-	 if  (( b > c ) &&  (d > a) && (c + d > a + b) && 
-			(c&&d % 2 > 0)  && (a%2 == 0 )) {
+	
+	 if  (( B > C ) &&  (D > A) && (C + D > A + B) && 
+			(C > 0) && (D  > 0)  && (A%2 == 0 )) {
 		
 		System.out.println("Valores aceitos");
 		
